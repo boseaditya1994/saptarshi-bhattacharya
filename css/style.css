@@ -13,6 +13,10 @@ body {
   font-family: "Poppins", "sans-serif";
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 * {
   padding: 0;
   margin: 0;
@@ -473,4 +477,28 @@ section.contact input:focus {
 section.contact .btn-wrapper {
   margin-top: 2rem;
   text-align: center;
+}
+
+footer {
+  background: var(--dark);
+  text-align: center;
+  padding: 5rem 0;
+}
+
+footer .footer-logo {
+  margin-bottom: 3rem;
+  width: 150px;
+}
+
+footer .footer-socials {
+  margin-bottom: 3rem;
+  margin-right: -1rem;
+}
+
+footer .footer-socials a {
+  margin-right: 1rem;
+}
+
+footer .copyright {
+  color: var(--ternary);
 }
